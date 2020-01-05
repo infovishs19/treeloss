@@ -4,6 +4,17 @@ int canvasW = 7680;
 int canvasH = 1080;
 PGraphics canvas;
 
+float minArea = 0;
+float maxArea = 0;
+int currentyear = 2000;
+int yearText = 2000;
+int currentIndex = 0;
+float totalkm2 = 0;
+float [] x;
+float []  x2;
+float []  x3;
+float []  x4;
+float []  x5;
 ArrayList<Region> data;
 
 PImage img1; /*für Start und Legende*/
@@ -43,6 +54,29 @@ void setup() {
   for (Region r : data) {
     println(r);
   }
+
+  int n = data.size();
+  x = new float[n];
+  x2 = new float[n];
+  x3 = new float[n];
+  x4 = new float[n];
+  x5 = new float[n];
+
+  //random X-Postitionen definieren*/
+  for (int i = 0; i < data.size(); i++) {
+    float nn = random(1353.26, 7675);
+    x[i] =nn;
+    float m = random(1353.26, 7675);
+    x2[i] = m;
+    float l = random(1353.26, 7675);
+    x3[i] = l;
+    float r = random(1353.26, 7675);
+    x4[i] = r;
+    float s = random(1353.26, 7675);
+    x5[i] = s;
+    float p = random(1353.26, 7675);
+    x5[i] = p;
+  };
 
 
   ready = true;
