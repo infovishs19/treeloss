@@ -4,6 +4,7 @@ int canvasW = 7680;
 int canvasH = 1080;
 PGraphics canvas;
 
+ArrayList<Region> data;
 
 PImage img1; /*für Start und Legende*/
 PImage img2; /*für Ende*/
@@ -23,12 +24,19 @@ void settings()
 }
 
 void setup() {
+  
+     frameRate(20); ///2
+     
+     
   canvas = createGraphics(canvasW, canvasH, P3D);
 
   img1 = loadImage("Grafiken/neu_1.png");
   img2 = loadImage("Grafiken/neu_2.png");
   img3 = loadImage("Grafiken/neu_3.png");
   img4 = loadImage("Grafiken/neu_4.png");
+  
+  
+    data =  loadData("treeloss.csv");
 
 
 

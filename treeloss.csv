@@ -1,0 +1,163 @@
+region,jahr,km2
+Acre,2001,673.1
+Acre,2002,684.39
+Acre,2003,376.66
+Acre,2004,671.9
+Acre,2005,1698.6
+Acre,2006,401.38
+Acre,2007,346.74
+Acre,2008,551.49
+Acre,2009,354.53
+Acre,2010,425.19
+Acre,2011,400.98
+Acre,2012,626.76
+Acre,2013,494.83
+Acre,2014,634.42
+Acre,2015,497.33
+Acre,2016,866.13
+Acre,2017,861.24
+Acre,2018,844.89
+Amapá,2001,139.27
+Amapá,2002,139.05
+Amapá,2003,97.96
+Amapá,2004,166.19
+Amapá,2005,141.45
+Amapá,2006,130.22
+Amapá,2007,110.2
+Amapá,2008,138.26
+Amapá,2009,222.73
+Amapá,2010,106.49
+Amapá,2011,138.8
+Amapá,2012,202.34
+Amapá,2013,144.63
+Amapá,2014,160.43
+Amapá,2015,142.01
+Amapá,2016,384.25
+Amapá,2017,381.41
+Amapá,2018,131.26
+Amazonas,2001,814.39
+Amazonas,2002,991.4
+Amazonas,2003,1020.13
+Amazonas,2004,943.89
+Amazonas,2005,1746.67
+Amazonas,2006,1548.48
+Amazonas,2007,893.56
+Amazonas,2008,944.95
+Amazonas,2009,1282.66
+Amazonas,2010,1504.68
+Amazonas,2011,858.26
+Amazonas,2012,1636.04
+Amazonas,2013,1260.22
+Amazonas,2014,1463.43
+Amazonas,2015,1568.76
+Amazonas,2016,5475.2
+Amazonas,2017,2638.07
+Amazonas,2018,1938.02
+Maranhão,2001,842.46
+Maranhão,2002,1701.28
+Maranhão,2003,962.99
+Maranhão,2004,1972.14
+Maranhão,2005,1683.31
+Maranhão,2006,1841.83
+Maranhão,2007,2084.57
+Maranhão,2008,2103.05
+Maranhão,2009,1189.24
+Maranhão,2010,2558.49
+Maranhão,2011,1391.32
+Maranhão,2012,2583.5
+Maranhão,2013,2782.21
+Maranhão,2014,3513.84
+Maranhão,2015,2810.49
+Maranhão,2016,7996.28
+Maranhão,2017,4505.29
+Maranhão,2018,4053.97
+Mato Grosso,2001,6683.29
+Mato Grosso,2002,10655.3
+Mato Grosso,2003,11353.64
+Mato Grosso,2004,12740.8
+Mato Grosso,2005,7738.84
+Mato Grosso,2006,5513.08
+Mato Grosso,2007,4944.94
+Mato Grosso,2008,4080.46
+Mato Grosso,2009,2021.13
+Mato Grosso,2010,5201.85
+Mato Grosso,2011,3448.86
+Mato Grosso,2012,5356.03
+Mato Grosso,2013,2270.26
+Mato Grosso,2014,3672.77
+Mato Grosso,2015,3296.16
+Mato Grosso,2016,5879.38
+Mato Grosso,2017,8870.72
+Mato Grosso,2018,4334.4
+Pará,2001,6491.2
+Pará,2002,7812.83
+Pará,2003,6275.31
+Pará,2004,9746.98
+Pará,2005,9417.15
+Pará,2006,7709.15
+Pará,2007,6723.49
+Pará,2008,7076.56
+Pará,2009,4803.65
+Pará,2010,5657.4
+Pará,2011,4351.57
+Pará,2012,5557.26
+Pará,2013,4341.66
+Pará,2014,5576.07
+Pará,2015,4635.83
+Pará,2016,15732.72
+Pará,2017,13194.78
+Pará,2018,8202.57
+Rondônia,2001,2689.69
+Rondônia,2002,4114.28
+Rondônia,2003,3236.76
+Rondônia,2004,3231.03
+Rondônia,2005,3976.98
+Rondônia,2006,2955.58
+Rondônia,2007,1593.61
+Rondônia,2008,1261.05
+Rondônia,2009,959.67
+Rondônia,2010,2057.46
+Rondônia,2011,1542.24
+Rondônia,2012,1610.88
+Rondônia,2013,789.21
+Rondônia,2014,1920.95
+Rondônia,2015,1633.22
+Rondônia,2016,2647.35
+Rondônia,2017,2819.05
+Rondônia,2018,1905.41
+Roraima,2001,566.2
+Roraima,2002,329.71
+Roraima,2003,449.36
+Roraima,2004,259.26
+Roraima,2005,205.37
+Roraima,2006,295.2
+Roraima,2007,455.26
+Roraima,2008,352.21
+Roraima,2009,388.72
+Roraima,2010,230.6
+Roraima,2011,194.61
+Roraima,2012,206.96
+Roraima,2013,197.11
+Roraima,2014,316.29
+Roraima,2015,328.67
+Roraima,2016,3376.67
+Roraima,2017,462.01
+Roraima,2018,489.99
+Tocantins,2001,756.18
+Tocantins,2002,692.48
+Tocantins,2003,775.26
+Tocantins,2004,950.65
+Tocantins,2005,842.46
+Tocantins,2006,701.76
+Tocantins,2007,1088.36
+Tocantins,2008,594.57
+Tocantins,2009,653.06
+Tocantins,2010,673.51
+Tocantins,2011,607.94
+Tocantins,2012,975.24
+Tocantins,2013,1007.86
+Tocantins,2014,1361.5
+Tocantins,2015,1329.88
+Tocantins,2016,1502.9
+Tocantins,2017,1998.89
+Tocantins,2018,1253.25
