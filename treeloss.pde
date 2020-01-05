@@ -24,21 +24,25 @@ void settings()
 }
 
 void setup() {
-  
-     frameRate(20); ///2
-     
-     
+
+  frameRate(20); ///2
+
+
   canvas = createGraphics(canvasW, canvasH, P3D);
 
   img1 = loadImage("Grafiken/neu_1.png");
   img2 = loadImage("Grafiken/neu_2.png");
   img3 = loadImage("Grafiken/neu_3.png");
   img4 = loadImage("Grafiken/neu_4.png");
-  
-  
-    data =  loadData("treeloss.csv");
 
 
+  data =  loadData("treeloss.csv");
+
+  Collections.sort(data);
+
+  for (Region r : data) {
+    println(r);
+  }
 
 
   ready = true;

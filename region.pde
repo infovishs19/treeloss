@@ -18,4 +18,8 @@ class Region  implements Comparable<Region> {
       return 1;
     } else return 0;
   }
+
+  public String toString() {
+    return this.region + ", " + this.jahr + ", " + this.km2;
+  }
 }
