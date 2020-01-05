@@ -34,17 +34,17 @@ PFont fontBold;
 void settings() 
 {
   //size(1280, 180, P3D);
-  size(canvasW/3, canvasH/3, P3D);
+  size(canvasW/2, canvasH/2, P3D);
   PJOGL.profile=1;
 }
 
 void setup() {
 
-  frameRate(20); ///2
+  frameRate(2); ///2
 
 
-  font = createFont("fonts/Roboto-Regular.ttf",30);
-  fontBold = createFont("fonts/Roboto-Bold.ttf",30);
+  font = createFont("fonts/Roboto-Regular.ttf", 30);
+  fontBold = createFont("fonts/Roboto-Bold.ttf", 30);
   canvas = createGraphics(canvasW, canvasH, P3D);
 
   img1 = loadImage("Grafiken/neu_1.png");
@@ -67,7 +67,7 @@ void setup() {
   x3 = new float[n];
   x4 = new float[n];
   x5 = new float[n];
-   x6 = new float[n];
+  x6 = new float[n];
 
   //random X-Postitionen definieren*/
   for (int i = 0; i < data.size(); i++) {
@@ -108,9 +108,9 @@ void draw() {
   }
   /* Zweiter weiter Schnitt: Animation* 170 Frames lang*/
   else if (frameCount < 200) {
-    println("aktueller Framecount" + frameCount)
+    println("aktueller Framecount" + frameCount);
 
-     canvas.background(img2); /*Platzierung Legende*/
+    canvas.background(img2); /*Platzierung Legende*/
 
     println("Wir sind im Jahr " + yearText);
 
@@ -200,8 +200,8 @@ void draw() {
       canvas.textFont(fontBold);
       //textStyle(BOLD);
       canvas.text("Verlust im Jahr", 1075, 950, 250, 500);
-        canvas.text(yearText + " seit 2001:", 1075, 985, 250, 500)
-       canvas.text(round(totalkm2) + " km²", 1015, 1020, 300, 500)
+      canvas.text(yearText + " seit 2001:", 1075, 985, 250, 500);
+      canvas.text(round(totalkm2) + " km²", 1015, 1020, 300, 500);
 
       /*Text rechts*/
       canvas.fill(0);
@@ -213,10 +213,10 @@ void draw() {
       canvas.noStroke();
       canvas.textFont(fontBold);
       //textStyle(BOLD);
-      canvas.text("Verlust im Jahr", 7386, 950, 250, 500)
-        canvas.text(yearText + " seit 2001:", 7386, 985, 250, 500)
-        canvas.text(round(totalkm2) + " km²", 7326, 1020, 300, 500)
-        yearText = data.get(currentIndex).jahr; //yearText = yearText + 1;
+      canvas.text("Verlust im Jahr", 7386, 950, 250, 500);
+      canvas.text(yearText + " seit 2001:", 7386, 985, 250, 500);
+      canvas.text(round(totalkm2) + " km²", 7326, 1020, 300, 500);
+      yearText = data.get(currentIndex).jahr; //yearText = yearText + 1;
     }
 
     totalkm2 = totalClearedForest();
@@ -241,11 +241,19 @@ void draw() {
 
   /* Vierter Schnitt: Mensch*/
   else if (frameCount < 250) {
-     canvas.background(img4);
+    canvas.background(img4);
   }
 
 
   canvas.endDraw();
 
   image(canvas, 0, 0, width, height);
+}
+
+float totalClearedForest() {
+  float sum = 0;
+  for (int i = currentIndex; i < data.size(); i++) {
+    sum += data.get(i).km2;
+  }
+  return sum;
 }
